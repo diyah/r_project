@@ -1,11 +1,4 @@
 # Credit Card Fraud Prediction
-#
-
-########################
-#                       #
-# Data Preparation      #
-#                       #
-#######################
 
 setwd('E:/PROJECTS/DEMO')
 
