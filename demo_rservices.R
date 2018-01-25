@@ -68,11 +68,6 @@ pred =as.data.frame(cbind(actual = as.numeric(prediction$fraudRisk),
 results <- table(prediction$PredictedLabel,prediction$fraudRisk)
 
 
-rocCurve <- rxRoc("actual", "probs", data = pred)
-auc <- rxAuc(rocCur)*100
-plot(auc)
-
-
 # Operationalize to web service
 library(mrsdeploy)
 
