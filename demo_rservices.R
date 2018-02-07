@@ -1,14 +1,14 @@
 # Credit Card Fraud Prediction
 
-setwd('E:/PROJECTS/DEMO')
+setwd('D:/PROJECTS/DEMO')
 
+
+connStr <- "Driver={SQL Server};
 Server=localhost;
-DatabaseconnStr <- "Driver={SQL Server};
 Database=Demo;
-Uid=zuhra;
+Uid=sa;
 Pwd=Passcode123"
 
-column
 # Define the type of the 
 colClass <- c('gender'= "factor",
               'cardholder' = "numeric",
